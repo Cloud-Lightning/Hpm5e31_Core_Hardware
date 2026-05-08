@@ -1,0 +1,878 @@
+(kicad_sch 
+  (version 20250114) 
+  (generator "eeschema") 
+  (generator_version "9.0") 
+  (uuid "a6fb7d15-c8be-4e54-9dbf-40ff03170372") 
+  (paper "A4") 
+  (lib_symbols 
+    (symbol "RTL8211F-CG:RTL8211F-CG" 
+      (pin_names 
+        (offset 1.0142)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "U?" 
+        (at 0 7.0357 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "RTL8211F-CG" 
+        (at 0 5.2577 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "kicad_api_lib:RTL8211F-CG" 
+        (at 0 3.81 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "http://file.elecfans.com/web2/M00/4E/30/poYBAGK9C66ANXJPABoSs3PTd-w643.pdf" 
+        (at 0 3.81 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "INTEGRATED 10/100/1000M ETHERNET PRECISION TRANSCEIVER" 
+        (at 0 3.81 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "MPN" "RTL8211F-CG" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Manufacturer" "Realtek" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "huaqiu_pn" "G3689614" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "lead_free" "Yes" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "mount" "SMT" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "package" "WQFN-40-EP(5x5)" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "packaging" "490pcs" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "RTL8211F-CG_1_1" 
+        (rectangle 
+          (start -19.05 -26.67) 
+          (end 19.05 26.67) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type background))) 
+        (pin passive line 
+          (at -22.86 25.4 0) 
+          (length 3.81) 
+          (name "MDIP0" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 22.86 0) 
+          (length 3.81) 
+          (name "MDIN0" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 20.32 0) 
+          (length 3.81) 
+          (name "AVDD10" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 17.78 0) 
+          (length 3.81) 
+          (name "MDIP1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "4" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 15.24 0) 
+          (length 3.81) 
+          (name "MDIN1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "5" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 12.7 0) 
+          (length 3.81) 
+          (name "MDIP2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "6" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 10.16 0) 
+          (length 3.81) 
+          (name "MDIN2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "7" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 7.62 0) 
+          (length 3.81) 
+          (name "AVDD10" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "8" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 5.08 0) 
+          (length 3.81) 
+          (name "MDIP3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "9" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 2.54 0) 
+          (length 3.81) 
+          (name "MDIN3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "10" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 0 0) 
+          (length 3.81) 
+          (name "AVDD33" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "11" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 -2.54 0) 
+          (length 3.81) 
+          (name "PHYRSTB" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "12" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 -5.08 0) 
+          (length 3.81) 
+          (name "MDC" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "13" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 -7.62 0) 
+          (length 3.81) 
+          (name "MDIO" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "14" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 -10.16 0) 
+          (length 3.81) 
+          (name "TXD3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "15" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 -12.7 0) 
+          (length 3.81) 
+          (name "TXD2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "16" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 -15.24 0) 
+          (length 3.81) 
+          (name "TXD1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "17" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 -17.78 0) 
+          (length 3.81) 
+          (name "TXD0" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "18" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 -20.32 0) 
+          (length 3.81) 
+          (name "TXCTL" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "19" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 -22.86 0) 
+          (length 3.81) 
+          (name "TXC" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "20" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -22.86 -25.4 0) 
+          (length 3.81) 
+          (name "DVDD10" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "21" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 25.4 180) 
+          (length 3.81) 
+          (name "PHYAD0/RXD3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "22" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 22.86 180) 
+          (length 3.81) 
+          (name "PLLOFF/RXD2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "23" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 20.32 180) 
+          (length 3.81) 
+          (name "TXDLY/RXD1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "24" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 17.78 180) 
+          (length 3.81) 
+          (name "RXDLY/RXD0" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "25" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 15.24 180) 
+          (length 3.81) 
+          (name "PHYAD2/RXCTL" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "26" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 12.7 180) 
+          (length 3.81) 
+          (name "PHYAD1/RXC" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "27" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 10.16 180) 
+          (length 3.81) 
+          (name "DVDD_RG" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "28" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 7.62 180) 
+          (length 3.81) 
+          (name "DVDD33" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "29" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 5.08 180) 
+          (length 3.81) 
+          (name "REG_OUT/LDO_OUT" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "30" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 2.54 180) 
+          (length 3.81) 
+          (name "INTB/PMEB" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "31" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 0 180) 
+          (length 3.81) 
+          (name "CFG_EXT/LED0" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "32" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 -2.54 180) 
+          (length 3.81) 
+          (name "CFG_LDO0/LED1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "33" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 -5.08 180) 
+          (length 3.81) 
+          (name "CFG_LDO1/LED2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "34" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 -7.62 180) 
+          (length 3.81) 
+          (name "CLKOUT" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "35" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 -10.16 180) 
+          (length 3.81) 
+          (name "XTAL_IN" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "36" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 -12.7 180) 
+          (length 3.81) 
+          (name "XTAL_OUT/EXT_CLK" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "37" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 -15.24 180) 
+          (length 3.81) 
+          (name "AVDD10" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "38" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 -17.78 180) 
+          (length 3.81) 
+          (name "RSET" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "39" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 -20.32 180) 
+          (length 3.81) 
+          (name "AVDD33" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "40" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 22.86 -22.86 180) 
+          (length 3.81) 
+          (name "GND" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "41" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no))) 
+  (symbol 
+    (lib_id "RTL8211F-CG:RTL8211F-CG") 
+    (at 76.2 147.32 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "1f707c12-a0a2-4dcc-8b22-b380c80798c3") 
+    (property "Reference" "U7" 
+      (at 76.2 115.57 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "RTL8211F-CG" 
+      (at 76.2 118.11 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "kicad_api_lib:RTL8211F-CG" 
+      (at 76.2 143.51 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Datasheet" "http://file.elecfans.com/web2/M00/4E/30/poYBAGK9C66ANXJPABoSs3PTd-w643.pdf" 
+      (at 76.2 143.51 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Description" "INTEGRATED 10/100/1000M ETHERNET PRECISION TRANSCEIVER" 
+      (at 76.2 143.51 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "MPN" "RTL8211F-CG" 
+      (at 76.2 147.32 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Manufacturer" "Realtek" 
+      (at 76.2 147.32 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "huaqiu_pn" "G3689614" 
+      (at 76.2 147.32 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "lead_free" "Yes" 
+      (at 76.2 147.32 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "mount" "SMT" 
+      (at 76.2 147.32 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "package" "WQFN-40-EP(5x5)" 
+      (at 76.2 147.32 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "packaging" "490pcs" 
+      (at 76.2 147.32 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "9" 
+      (uuid "6920a16e-b6ea-4d7c-bceb-9e60aee0ee38")) 
+    (pin "16" 
+      (uuid "beec885f-3de7-47b9-8cdc-40467762b1ab")) 
+    (pin "6" 
+      (uuid "0298fdc8-e6a8-4c5b-a914-db7562c7695a")) 
+    (pin "2" 
+      (uuid "5327050d-95e4-4880-8a18-538290a78d4f")) 
+    (pin "13" 
+      (uuid "0ba08211-b40d-44bf-ac1e-350a32acb5df")) 
+    (pin "22" 
+      (uuid "8f625f85-55e8-41fb-b4f6-f208009a643b")) 
+    (pin "5" 
+      (uuid "950816c2-1942-44be-8f43-cf6e582ec7bd")) 
+    (pin "17" 
+      (uuid "fbfbb812-ab30-4aed-acc4-70e98eb18bc8")) 
+    (pin "19" 
+      (uuid "79bff667-87eb-435f-80dc-bbd89e4af9b3")) 
+    (pin "10" 
+      (uuid "634f6e17-4034-4f22-aaaf-8bdfaa928435")) 
+    (pin "11" 
+      (uuid "6f0ff9ca-4edd-4d38-a6a6-1b657764548b")) 
+    (pin "1" 
+      (uuid "34129925-72be-4d46-80b8-26d0fd152b09")) 
+    (pin "3" 
+      (uuid "aed5f5c4-b1be-4d7e-adce-91ea75656d41")) 
+    (pin "4" 
+      (uuid "51f205fc-55fe-49c9-b2c8-688c1283d35d")) 
+    (pin "7" 
+      (uuid "e0d9b7bf-99b8-4737-a085-1f6f9c359452")) 
+    (pin "8" 
+      (uuid "6e4153a6-0ff3-4371-8543-98f10ef7178b")) 
+    (pin "12" 
+      (uuid "aacdfaa3-0b86-43c4-8e4b-b55962c3a067")) 
+    (pin "14" 
+      (uuid "a95e89e5-cd0e-4dec-b3f2-7bb472219e66")) 
+    (pin "15" 
+      (uuid "26b3a6ee-8388-4b0c-9dd8-7d74c52f7244")) 
+    (pin "18" 
+      (uuid "e60dc242-0ecd-4eec-b3ed-d642e4d79664")) 
+    (pin "20" 
+      (uuid "e6b5e08f-3197-4856-8d30-a0fde34f7d78")) 
+    (pin "21" 
+      (uuid "194e4a08-cadd-4812-a401-093d33feb5ea")) 
+    (pin "24" 
+      (uuid "9a8a25d4-76e1-47ae-b1e1-a64e91afb29e")) 
+    (pin "28" 
+      (uuid "ff93b680-8983-4d99-86c1-bd5319ed2bda")) 
+    (pin "40" 
+      (uuid "ec2f6bec-042c-45b9-9376-d748c630489b")) 
+    (pin "35" 
+      (uuid "ea882236-0beb-4fcf-8d2b-fa971efcf92b")) 
+    (pin "30" 
+      (uuid "f6a65b09-d39d-4145-a3de-51fc74097afd")) 
+    (pin "41" 
+      (uuid "0f7f4b5e-b7df-446a-b1e9-575e808098e4")) 
+    (pin "38" 
+      (uuid "af06721d-b006-4d06-9890-40051d26a011")) 
+    (pin "34" 
+      (uuid "ceb717b4-4939-4538-ae4c-7981a11910fd")) 
+    (pin "29" 
+      (uuid "a8b1fb8d-e28d-4c8d-97ba-901454d815c2")) 
+    (pin "31" 
+      (uuid "d170724b-d596-4808-9418-361183a39cee")) 
+    (pin "33" 
+      (uuid "b8d97130-af3e-437e-8e5c-2889382e8bf4")) 
+    (pin "36" 
+      (uuid "1219a71c-a335-4dcb-b6d9-d004b249ed77")) 
+    (pin "26" 
+      (uuid "bf4eb2d8-2e19-47b8-9782-242a9383be3b")) 
+    (pin "37" 
+      (uuid "31995831-edf0-4513-b1a0-79475caf8c31")) 
+    (pin "23" 
+      (uuid "8e7be958-62c6-4bd5-9ab9-1b388653b835")) 
+    (pin "39" 
+      (uuid "e6a8a2b5-a9f9-495d-9b3e-beb87e831304")) 
+    (pin "25" 
+      (uuid "9b05a298-4af5-4f06-9a23-54f19817ca0f")) 
+    (pin "27" 
+      (uuid "756d177f-7e62-4725-b244-ad552f7f768a")) 
+    (pin "32" 
+      (uuid "bcbf8b24-84e6-4028-b2ba-36b5b07fbbe9")) 
+    (instances 
+      (project "" 
+        (path "/c97d420a-5bfd-40ab-9a74-5349ba6434d5/423b91a6-446d-4777-9bdc-603c8c708041" 
+          (reference "U7") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "RTL8211F-CG:RTL8211F-CG") 
+    (at 76.2 44.45 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "96246932-a53f-48cf-931e-453f61549b3e") 
+    (property "Reference" "U6" 
+      (at 76.2 12.7 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "RTL8211F-CG" 
+      (at 76.2 15.24 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "kicad_api_lib:RTL8211F-CG" 
+      (at 76.2 40.64 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Datasheet" "http://file.elecfans.com/web2/M00/4E/30/poYBAGK9C66ANXJPABoSs3PTd-w643.pdf" 
+      (at 76.2 40.64 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Description" "INTEGRATED 10/100/1000M ETHERNET PRECISION TRANSCEIVER" 
+      (at 76.2 40.64 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "MPN" "RTL8211F-CG" 
+      (at 76.2 44.45 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Manufacturer" "Realtek" 
+      (at 76.2 44.45 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "huaqiu_pn" "G3689614" 
+      (at 76.2 44.45 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "lead_free" "Yes" 
+      (at 76.2 44.45 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "mount" "SMT" 
+      (at 76.2 44.45 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "package" "WQFN-40-EP(5x5)" 
+      (at 76.2 44.45 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "packaging" "490pcs" 
+      (at 76.2 44.45 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "8" 
+      (uuid "2d6068cd-8742-4628-a735-d98afeaaaa31")) 
+    (pin "11" 
+      (uuid "6edd24c3-dc45-4510-ad49-4a174cadeb3c")) 
+    (pin "14" 
+      (uuid "7ad7e5a7-34fd-43a2-8162-59e00953afe4")) 
+    (pin "7" 
+      (uuid "63dda08b-1e36-4b4c-92c1-2b909ca5467c")) 
+    (pin "10" 
+      (uuid "ed4fbc16-3f70-42ae-a246-3e2f810650b8")) 
+    (pin "5" 
+      (uuid "31024c1a-6c95-4941-88d7-73567a069d45")) 
+    (pin "13" 
+      (uuid "1fb31f08-a5ce-4393-a3c4-929f0901e0ab")) 
+    (pin "21" 
+      (uuid "1dc0ccfd-45ed-4306-90d6-aa75498d69c9")) 
+    (pin "1" 
+      (uuid "e0d8b827-6872-4b9e-bb4c-0282720d0d63")) 
+    (pin "2" 
+      (uuid "0a77b3b5-9213-46e6-abe2-cf42fe960539")) 
+    (pin "3" 
+      (uuid "73593878-6481-4ddc-b8fa-c81856c4c1f2")) 
+    (pin "4" 
+      (uuid "c01e116f-7a23-477c-ab2e-ae5e336c7571")) 
+    (pin "6" 
+      (uuid "b6f2b581-59c4-42ec-93cb-fb7b50f98bff")) 
+    (pin "9" 
+      (uuid "4b80d40f-3b2e-4f20-bb74-87cf83455699")) 
+    (pin "12" 
+      (uuid "7960b9bd-953a-418f-a4c4-9a76b9a39709")) 
+    (pin "15" 
+      (uuid "dfb6dcf9-dce2-4cff-bd22-2a26bfd7cdca")) 
+    (pin "17" 
+      (uuid "af42dc39-99d6-4e8e-89ca-6d6294549e4e")) 
+    (pin "19" 
+      (uuid "3c8281fc-7069-4fca-93cd-b8750d808f58")) 
+    (pin "16" 
+      (uuid "0fc2ce65-f8b4-4627-b0de-e544c23573e7")) 
+    (pin "18" 
+      (uuid "adc89c48-79ff-49bf-8f47-59c6b69e93bb")) 
+    (pin "20" 
+      (uuid "11e8077d-1b3f-4ba4-901c-53e079e7b96c")) 
+    (pin "22" 
+      (uuid "849ba336-be49-4344-9a4e-1a44e92ddc76")) 
+    (pin "23" 
+      (uuid "74fcd082-b43e-4d3c-b4f8-f42e81f0ac9d")) 
+    (pin "38" 
+      (uuid "5c775f0e-dcca-4e57-a187-0df44c51f54b")) 
+    (pin "24" 
+      (uuid "28e93ad0-3000-4edb-a988-7bfccf45af24")) 
+    (pin "27" 
+      (uuid "22df75a0-a05f-4788-baa6-85eb04b38f28")) 
+    (pin "29" 
+      (uuid "f2a07e78-7e88-4115-b38d-8bd13ff83326")) 
+    (pin "26" 
+      (uuid "9027c60c-4ca3-4320-a225-d3228648713b")) 
+    (pin "39" 
+      (uuid "8c39c42b-1938-46be-b8fc-5fb49a93defc")) 
+    (pin "37" 
+      (uuid "dbf81381-54fe-4818-8de9-f644136b1db6")) 
+    (pin "31" 
+      (uuid "17041806-dcba-4714-869a-7820dd3393fc")) 
+    (pin "25" 
+      (uuid "014062e3-c13a-4327-bc03-5d57c0188399")) 
+    (pin "36" 
+      (uuid "376b03fc-1e35-4390-926b-057977859ae2")) 
+    (pin "33" 
+      (uuid "f284ab3d-5ce8-4ce1-8137-201f188d0808")) 
+    (pin "32" 
+      (uuid "7d454364-08e6-45ce-8ddb-38b9dd1e7492")) 
+    (pin "30" 
+      (uuid "0968f8eb-0588-4ad7-b6fb-ad1eadc7cf51")) 
+    (pin "34" 
+      (uuid "baaa9239-46b9-42ac-8bad-91337c2f606f")) 
+    (pin "28" 
+      (uuid "9d5b981e-f89b-436f-b4a7-50e619f7e41e")) 
+    (pin "35" 
+      (uuid "87f3a713-5dff-4915-a95c-922761c64a3d")) 
+    (pin "40" 
+      (uuid "3b729bd6-93d9-4379-9640-27ffd602327f")) 
+    (pin "41" 
+      (uuid "0ed481d2-4162-4122-9b34-7caeb3b80678")) 
+    (instances 
+      (project "" 
+        (path "/c97d420a-5bfd-40ab-9a74-5349ba6434d5/423b91a6-446d-4777-9bdc-603c8c708041" 
+          (reference "U6") 
+          (unit 1))))))

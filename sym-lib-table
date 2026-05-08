@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "RY8411") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/RY8411.kicad_sym") (options "Added by KiCad IPC API") (descr ""))
+	(lib (name "RTL8211F-CG") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/RTL8211F-CG.kicad_sym") (options "Added by KiCad IPC API") (descr ""))
+)

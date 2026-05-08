@@ -1,0 +1,9 @@
+# KiCad local/cache files
+*.kicad_prl
+fp-info-cache
+*-backups/
+*-bak
+_autosave-*
+
+# Generated manufacturing/build outputs
+out/
