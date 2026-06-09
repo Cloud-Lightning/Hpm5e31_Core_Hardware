@@ -9334,6 +9334,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 229.87) (xy 163.83 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0aae33-d44d-40f3-bad6-03ddf566fd91")
+	)
+	(wire
+		(pts
 			(xy 181.61 143.51) (xy 190.5 143.51)
 		)
 		(stroke
@@ -9384,6 +9394,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 223.52) (xy 144.78 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1483fc3a-ea73-4540-88e5-4edecdf37123")
+	)
+	(wire
+		(pts
 			(xy 236.22 140.97) (xy 254 140.97)
 		)
 		(stroke
@@ -9421,6 +9441,16 @@
 			(type default)
 		)
 		(uuid "193d02e1-1472-496f-a6d7-3079a85fcce2")
+	)
+	(wire
+		(pts
+			(xy 163.83 229.87) (xy 163.83 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1bb1c4-18e8-499a-a155-86a0c8d31dfc")
 	)
 	(wire
 		(pts
@@ -9801,6 +9831,16 @@
 			(type default)
 		)
 		(uuid "41e796db-251a-4916-94c6-d2d5270b4d5e")
+	)
+	(wire
+		(pts
+			(xy 144.78 229.87) (xy 148.59 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f84660-c287-40a7-bafc-8e2345a3e84d")
 	)
 	(wire
 		(pts
@@ -11852,6 +11892,16 @@
 		)
 		(uuid "2cf325b0-28ff-4892-a724-73a255a61e8e")
 	)
+	(label "VCCIO_PHY"
+		(at 144.78 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f29231f-7078-4c98-934f-5c0a9cf0bf20")
+	)
 	(label "MDIP3"
 		(at 317.5 115.57 0)
 		(effects
@@ -12241,6 +12291,16 @@
 			(justify right bottom)
 		)
 		(uuid "6d1b3176-1767-4339-9abf-8bda323b5ca0")
+	)
+	(label "VCC3V3_PHY"
+		(at 163.83 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fb80b85-9cb0-42a9-a07e-f8bc310a49c8")
 	)
 	(label "VCC3V3_PHY"
 		(at 144.78 195.58 180)
@@ -21734,6 +21794,107 @@
 			(project "HPM5E31"
 				(path "/c97d420a-5bfd-40ab-9a74-5349ba6434d5/66409916-63cc-4ec6-a4ee-7afe73c5271b"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 229.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "beb6618b-80f8-4068-830b-99b455499450")
+		(property "Reference" "R69"
+			(at 147.32 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 157.48 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 152.4 231.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 152.4 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 152.4 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fee674cc-cf2e-41ce-bfb5-c2601bdad493")
+		)
+		(pin "1"
+			(uuid "72f08891-d557-4f0c-b98a-c12f8d6c9073")
+		)
+		(instances
+			(project "HPM5E31"
+				(path "/c97d420a-5bfd-40ab-9a74-5349ba6434d5/66409916-63cc-4ec6-a4ee-7afe73c5271b"
+					(reference "R69")
 					(unit 1)
 				)
 			)
