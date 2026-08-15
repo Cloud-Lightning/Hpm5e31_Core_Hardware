@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.8,
-          "width": 0.2
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3048
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -542,6 +542,13 @@
         "wire_width": 6
       },
       {
+        "name": "3.3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.1524,
         "diff_pair_gap": 0.1524,
         "diff_pair_width": 0.1778,
@@ -549,7 +556,7 @@
         "microvia_drill": 0.1,
         "name": "MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.33,
         "tuning_profile": "",
@@ -563,8 +570,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RGMII",
-        "pcb_color": "rgb(54, 207, 255)",
-        "priority": 1,
+        "pcb_color": "rgb(255, 62, 62)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.33,
         "tuning_profile": "",
